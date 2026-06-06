@@ -4,25 +4,13 @@
     "slug": "pechepov",
     "version": "1.0.0",
     "scheme": "pechepov",
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
-      "infoPlist": {
-        "NSCameraUsageDescription": "Cette application a besoin d'accéder à votre caméra pour le mode POV.",
-        "ITSAppUsesNonExemptEncryption": false
-      },
       "bundleIdentifier": "com.lookiiz.pechepov"
     },
     "android": {
-      "permissions": [
-        "CAMERA",
-        "CAMERA"
-      ],
       "package": "com.lookiiz.pechepov"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d577d25b-3a00-400d-865f-32f9be44862d"
-      }
     }
   }
 }
